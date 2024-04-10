@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    box-sizing: border-box;  
+    }
+
+/*Inicio*/
+.inicio{
+        color: black;
+        font-size: 20px ;    
+    }
+
+.Titulo-inicio{
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-size: 35px;
+    letter-spacing: 0.8px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 2px;
+    text-decoration: underline solid rgb;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    }
+
+.Parrafo{
+    text-decoration: double;
+    text-align: center;
+    margin: 2%;
+    font-size: 28px;
+    
+}    
+
+
+.especialidad{
+    color: black;
+    text-decoration:underline;
+    text-align: justify;
+    text-shadow: 20px;
+    font-size: 25px;
+    margin: 1%;
+
+
+}
+
+/*links de navegador*/
+.navegador{
+    color:white;
+    width: 100%;
+    padding: 5px;    
+    font-size: 25px;
+    text-align:left;
+    background-color: black;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content:center;
+}      
+
+.navegador-links{
+    display: flex;
+    gap: 20px;
+}
+
+.navegador-link{
+        font-size: medium;
+        text-align: left;
+        list-style: none; 
+}
+
+.navegador-link a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Portad*/
+.img-portada {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    margin-top: 70px;
+}
+
+.formulario-registro{
+     color:black ;
+     font-size: 20px;
+     text-align: left;
+    background-color:lightblue;
+}   
+
+.formulario-sesion{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    background-color: lightsteelblue;
+}
+
+.Titulo-tienda{
+    color: rgb(189, 29, 29);    
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px;
+    text-decoration: underline solid rgb;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*Tienda*/
+.Cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    z-index: 1;
+
+
+    
+}
+
+.caja-producto1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;   
+    border-radius:  10px; 
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    
+    }
+
+.Titulo-producto1{
+        font-size: 20px;
+        font-weight: bold;
+        position: sticky;
+        height: 10%;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+            }
+
+.precio-producto{
+        width: 50px;
+        height: 40px;
+        
+    }
+
+.Imagen-Producto1{
+        width: 70%;
+        height: 200px;
+    }
+
+.Imagen-Producto2{
+        width: 60%;
+        height: 56%;
+    }
+
+.Imagen-Producto3{
+        width: 60%;
+        height: 70%;
+    }      
+
+.boton-compra{
+    width: 100px;
+    height: 40px;   
+    background-color: rgb(167, 40, 40);
+    color: whitesmoke;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    right: 5px;
+    transition: 0,5s;
+    }   
+.boton-compra:hover{
+    background-color: rgb(44, 112, 238);
+    width: 90px;
+    
+
+}  
+
+/*Registro*/
+
+.form{
+    background-color: brown;
+    width: 600px;
+    height: 450px;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+ 
+.form-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0px;
+}
+
+.form-label{
+    color: white;
+
+
+}
+
+.form-input{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px 4px;
+  
+}
+.form-input::placeholder{
+    color: white;
+}
+.form-input:focus{
+    border-color: 3px solid white;
+    outline: none;
+}
+
+.Boton-formulario{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/*Opciones*/
+
+.opciones{
+    margin: 30px 0px;
+}
+
+.opciones-opcion{
+    background-color: brown;
+    padding: 40px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+/*InicioSesion*/
+.regi-sesion{
+    background-color: brown;
+    width: 600px;
+    height: 250px;
+    margin: 30px auto 30px auto;
+    padding: 50px;
+    border-radius: 20px;
+ 
+}
+.regi-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 5px 0px;
+}
+
+/*Contactos*/
+.Titulo-ubi{
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-size: 45px;
+    letter-spacing: 0.8px;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px;
+    text-decoration: underline solid rgb;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+/*Ubicacion*/
+.Img-ubi{
+    width: 50%;
+    height: 100% ;
+    margin: 30px;
+    margin-left: 350px;
+    border-radius: 10%;
+
+
+}
+
+.Img-Ubimaps{
+    height: 10%;
+    width: 10% ;
+    margin-top: 100px;
+
+}
+
+/*instagram*/
+
+
+.titulo-ig{
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px;
+    text-decoration: underline solid;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.img-ig{
+    width: 20%;
+    height: 50% ;
+    margin-top: 100px;
+    margin-left: 600px;
+   
+
+}
+
+.pie-pagina{
+    padding: 20px;
+}
+.Parrafo-final{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 992px){
+    .inicio{
+        font-size: 48px;
+    }
+}
