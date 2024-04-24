@@ -43,6 +43,10 @@
 }
 
 /*links de navegador*/
+.icono-menu{
+    display: none;
+}
+
 .navegador{
     color:white;
     width: 100%;
@@ -78,7 +82,7 @@
 /*Portad*/
 .img-portada {
     width: 100%;
-    height: 70%;
+ 
     position: relative;
     margin-top: 70px;
 }
@@ -143,7 +147,7 @@
         font-size: 20px;
         font-weight: bold;
         position: sticky;
-        height: 10%;
+        height: 20px;
         color: black;
         text-decoration: none;
         text-align: center;
@@ -151,7 +155,7 @@
             }
 
 .precio-producto{
-        width: 50px;
+        width: 50%;
         height: 40px;
         
     }
@@ -163,16 +167,16 @@
 
 .Imagen-Producto2{
         width: 60%;
-        height: 56%;
+        height: 180px;
     }
 
 .Imagen-Producto3{
         width: 60%;
-        height: 70%;
+        height: 160px;
     }      
 
 .boton-compra{
-    width: 100px;
+    width: 40%;
     height: 40px;   
     background-color: rgb(167, 40, 40);
     color: whitesmoke;
@@ -186,7 +190,7 @@
     }   
 .boton-compra:hover{
     background-color: rgb(44, 112, 238);
-    width: 90px;
+    width: 35%;
     
 
 }  
@@ -195,7 +199,7 @@
 
 .form{
     background-color: brown;
-    width: 600px;
+    width: 30%;
     height: 450px;
     margin: 30px auto 30px auto;
     padding: 20px;
@@ -243,26 +247,12 @@
     padding: 2px;
 }
 
-/*Opciones*/
-
-.opciones{
-    margin: 30px 0px;
-}
-
-.opciones-opcion{
-    background-color: brown;
-    padding: 40px;
-    color: whitesmoke;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px 0px;
-}
 
 /*InicioSesion*/
 .regi-sesion{
     background-color: brown;
     width: 600px;
-    height: 250px;
+    height: 250%;
     margin: 30px auto 30px auto;
     padding: 50px;
     border-radius: 20px;
@@ -292,20 +282,20 @@
 
 /*Ubicacion*/
 .Img-ubi{
-    width: 50%;
-    height: 100% ;
+    width: 40%;
     margin: 30px;
     margin-left: 350px;
-    border-radius: 10%;
-
+    border-radius: 2%;
+    
 
 }
 
 .Img-Ubimaps{
-    height: 10%;
     width: 10% ;
-    margin-top: 100px;
+    margin: 30px;
+    margin-top: 250px;
 
+    
 }
 
 /*instagram*/
@@ -326,10 +316,9 @@
 }
 
 .img-ig{
-    width: 20%;
-    height: 50% ;
+    width: 15%;
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 850px; 
    
 
 }
@@ -346,13 +335,42 @@
 
 
 
-
-
-
-
-
-@media(max-width: 992px){
-    .inicio{
-        font-size: 28px;
+@media(max-width: 768px ){
+    .navegador{
+        
     }
+
+    .icono-menu{
+        display: block;
+    }
+    
 }
+
+
+@media(max-width: 1024px ){
+    .inicio{
+        font-size: 208px;
+    }
+
+    .Cajas{
+        margin: 20px;
+    }
+
+}
+
+@media(max-width: 992px ){
+    .Img-ubi{
+        margin-left: 200px;
+    }
+  
+  
+    .img-ig{
+        margin-left: 300px;
+    }
+
+
+}
+
+
+
+
